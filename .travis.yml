@@ -15,6 +15,6 @@ before_script:
 script:
   - python test.py
 after_script:
-    - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi  # Upload coverage/codeclimate.json
+    - ./cc-test-reporter upload-coverage; fi  # Upload coverage/codeclimate.json
 
 
