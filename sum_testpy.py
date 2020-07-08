@@ -5,7 +5,7 @@ def sum(arg):
     return total
 
 
-def suw(arg):
+def su4(arg):
     total = 0
     for val in arg:
         total += val
