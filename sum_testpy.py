@@ -6,6 +6,11 @@ def sum(arg):
     for val in arg:
         total += val
         a=4
+    if 2 in arg:
+        print("hello")
+    if 2 in arg:
+        print ("hello")
+         
     return total
 
 
