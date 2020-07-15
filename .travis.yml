@@ -13,9 +13,8 @@ before_script:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 script:
-  - python -m test
-services:
-  - redis-server
+  - python -m xmlrunner discover --output-file cov
+
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 
