@@ -13,7 +13,8 @@ before_script:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 script:
-  - python -m xmlrunner discover --output-file cov
+  - coverage run -m test
+  - coverage xml
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
