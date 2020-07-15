@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="0" file="test.py" name="test.TestSum-20200715114442" skipped="0" tests="1" time="0.001" timestamp="2020-07-15T11:44:42">
+		<testcase classname="test.TestSum" file="test.py" line="7" name="test_list_int" time="0.001" timestamp="2020-07-15T11:44:42">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+	</testsuite>
+</testsuites>
